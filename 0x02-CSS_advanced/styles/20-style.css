@@ -259,16 +259,16 @@ a:active {
     font-weight: var(--font-weight-bold);
 }
 
-ul.row {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
 .row:after {
     content: "";
     display: table;
     clear: both;
+}
+
+ul.row {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 .col-1-3 {
     width: 33.33%;
