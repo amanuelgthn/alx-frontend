@@ -13,6 +13,7 @@
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
     --margin-all-zero: 0 0 0 0;
+    --padding-all-zero: 0 0 0 0;
     --font-weight-regular: 400;
     --font-weight-bold: 700;
     --line-height-small: 1.2;
@@ -129,6 +130,7 @@ a:active {
 
 .nav {
     margin: var(--margin-all-zero);
+    padding: var(--padding-all-zero);
     list-style: none;
     text-align: center;
 }
@@ -144,10 +146,10 @@ a:active {
 
 .nav .nav-link {
     display: block;
-    padding: 0.5rem 0 0 0.5rem;
+    padding: 0.5rem 1rem 1rem 0.5rem;
 }
 
-.nav .nav-link {
+.nav .nav-link:hover {
     background-color: var(--nav-item-link-hover);
 }
 
