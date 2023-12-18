@@ -195,11 +195,6 @@ body {
     color: var(--nav-item-link-hover);
 }
 
-[class^="col-"] {
-    float: left;
-    padding: 0.5rem;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
@@ -286,6 +281,11 @@ ul.row {
     float: left;
     padding: 0.5rem;
 }
+
+[class^="col-"] {
+    float: left;
+    padding: 0.5rem;
+  }
 
 .footer-copyright {
     margin: 0;
